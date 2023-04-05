@@ -1,0 +1,22 @@
+@import "./variables.scss";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  color: $color_white;
+  font-family: 'SourceCodePro';
+  font-size: clamp(0.8rem, calc(0.8rem + ((1vw - 0.32rem) * 0.6818)), 1.4rem);
+  background-color: $color_04;
+  overflow:scroll; 
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */

@@ -1,0 +1,16 @@
+$primary-color: #255459; //needed fot animate.css
+@import 'animate.css'; 
+
+
+@font-face {
+  font-family: 'SourceCodePro';
+  src: local('SourceCodePro'), url(./assets/fonts/SourceCodePro-VariableFont_wght.ttf) format('TrueType')
+  
+}
+
+
+input,
+textarea {
+  font-family: 'SourceCodePro';
+}
+

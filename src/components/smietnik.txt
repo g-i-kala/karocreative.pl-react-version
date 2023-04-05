@@ -1,0 +1,19 @@
+<form>
+                            <ul className='from-style'>
+                                <li className='half li-style'>
+                                    <input type='text' name='name' placeholder='Name' required/>
+                                </li>
+                                <li className='half li-style'>
+                                <input type='email' name='email' placeholder='Email' required/>
+                                </li>
+                                <li className='li-style'>
+                                    <input placeholder='Subject'type='text' name='subject' required/>
+                                </li>
+                                <li className='li-style'>
+                                    <textarea placeholder='Message' name='message' required ></textarea>
+                                </li>
+                                <li className='li-style'>
+                                    <input type='submit' className='flat-button' value='SEND'/>
+                                </li>
+                            </ul>
+                        </form>

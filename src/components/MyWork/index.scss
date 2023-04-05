@@ -1,0 +1,61 @@
+@import "../../variables.scss";
+
+.list__work {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.li__work {
+    display: block;
+    width: 100%;
+    opacity: 0.8;
+    //border: 1px red solid;
+    animation: pulse 1s;
+
+        &:nth-of-type(1){
+            animation-delay: 1.1s;
+        }
+
+        &:nth-of-type(2){
+            animation-delay: 1.2s;
+        }
+
+        &:nth-of-type(3){
+            animation-delay: 1.3s;
+        }
+        
+        &:nth-of-type(4){
+            animation-delay: 1.4s;
+        }
+
+        transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+        
+}
+
+.li__work__link {
+    text-decoration: none;
+    color: $color_02;
+}
+
+.li__work__spec {
+    list-style: none;
+    padding: 0em;
+}
+
+@media (min-width: 623px) {
+    .list__work {
+        flex-direction: row;
+
+        .li__work {
+            width: 49%;
+        }
+
+    }
+}

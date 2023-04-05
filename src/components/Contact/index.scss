@@ -1,0 +1,90 @@
+@import "../../variables.scss";
+
+.form__wrapper {
+    display: flex;
+    //border: #ffffff solid 1px;
+    width: 100%;
+   // justify-content: center;
+}
+
+.text-contact {
+    color: $color_white;
+    width: 100%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    //border: red solid 1px;
+    width:100%;
+    margin-top: 1em;
+}
+
+.form-style{
+        list-style: none;
+        margin: 0;
+        padding: 0 ;
+        margin-bottom: 1em;
+        overflow: hidden;
+        opacity: 0;
+        animation: fadeInUp 2s 2s;
+        animation-fill-mode: forwards;
+}
+
+.half {
+    width: 49%;
+   // border: red solid 1px;
+}
+
+.w100 {
+    width: 100%;
+  //  border: red solid 1px;
+}
+
+.ip-style {
+    background: $color_01;
+    height: 2em;
+    border: 0;
+    padding: 1em;
+    box-sizing: border-box;
+    font-size: clamp(0.8rem, calc(0.8rem + ((1vw - 0.32rem) * 0.6818)), 1.4rem);
+}
+
+.ta-style {
+    background: $color_01;
+    min-height: 1.5em;
+    border: 0;
+    padding: 1em;
+    box-sizing: border-box;
+    font-size: clamp(0.8rem, calc(0.8rem + ((1vw - 0.32rem) * 0.6818)), 1.4rem);
+}
+
+.flat-button {
+    text-decoration: none;
+    background: 0 0;
+    color: $color_white;
+    text-align: center;
+    width: 7em;
+    border: 1px solid $color_02;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    padding: .75em 2em;
+    border-radius: 100px;
+    animation: fadeIn 1s 1.8s backwards;
+ 
+    &:hover {
+        color: $color_02;
+        opacity: 0.8;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .contact-form{
+        width: 70%;
+    }
+}

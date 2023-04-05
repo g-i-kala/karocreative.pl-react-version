@@ -1,0 +1,32 @@
+
+//colors set 01
+
+$color_01 : #D98989; //main alert light
+$color_02 : #F27777; //mian alert 
+$color_03 : #177373; //main bckg light
+$color_04 : #255459; //main bckg 
+$color_05 : #032326; //main dark
+$color_white : #ffffff; //white
+$color_black : #000000; //black
+
+
+//color set 02
+
+// $color_01 : #730202; //main alert light
+// $color_02 : #F20505; //mian alert 
+// $color_03 : #736555; //main bckg light
+// $color_04 : #000000; //main bckg 
+// $color_05 : #000000; //main dark
+// $color_white : #ffffff; //white
+// $color_black : #000000; //black
+
+
+:export {
+    color_01 : $color_01;
+    color_02 : $color_02;
+    color_03 : $color_03;
+    color_04 : $color_04;
+    color_05 : $color_05;
+    color_white :$color_white;
+    color_black :$color_black;
+}

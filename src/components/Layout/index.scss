@@ -1,0 +1,56 @@
+@import "../../variables.scss";
+
+.page {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container {
+    width: 100%;
+    will-change: contents;
+    height: 90vh;
+    min-height: 500px;
+    position: absolute;
+    opacity: 0;
+    top: 10%;
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 2s forwards;
+    animation-delay: 1s;
+}
+
+.home-page,
+.contact-page,
+.mywork-page {
+    
+    h1, h2 {
+        font-weight: 400;
+
+    }
+
+    //border: 5px solid yellow;
+
+    .text-zone {
+        font-family: 'SourceCodePro';
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 50%;
+        //position: absolute;
+        //left: 10em;
+        //top:5em;
+       // border: 1px yellow solid;
+        
+    }
+ 
+    .h1-name {
+        color: $color_02;
+        font-weight: 400;
+        letter-spacing: 0.3em;
+    }
+}

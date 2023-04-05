@@ -1,0 +1,15 @@
+.content__wrapper {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: center;
+    //margin-top: 5em;
+    align-items: center;
+   // border: red solid 1px;
+}
+
+@media (min-width: 768px ) {
+    .content__wrapper {
+        width: 80%;
+    }
+}
