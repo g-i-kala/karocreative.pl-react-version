@@ -8,7 +8,7 @@ body {
   margin: 0;
   color: $color_white;
   font-family: 'SourceCodePro';
-  font-size: clamp(0.8rem, calc(0.8rem + ((1vw - 0.32rem) * 0.6818)), 1.4rem);
+  font-size: clamp(1.2rem, calc(1.2rem + ((1vw - 0.32rem) * 0.4545)), 1.6rem);
   background-color: $color_04;
   overflow:scroll; 
   display: block;

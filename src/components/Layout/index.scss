@@ -12,7 +12,8 @@
 .container {
     width: 100%;
     will-change: contents;
-    height: 90vh;
+    padding-top: 10%;
+   // height: 90vh;
     min-height: 500px;
     position: absolute;
     opacity: 0;
@@ -53,4 +54,8 @@
         font-weight: 400;
         letter-spacing: 0.3em;
     }
+}
+
+@media (min-width: 768px) {
+
 }
