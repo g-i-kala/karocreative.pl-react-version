@@ -31,8 +31,7 @@ const About = () => {
                         </p>
                         <p className='text-about'> With my quiet confidence and natural curiosity, I approach each task with a strong work ethic and a commitment to delivering high-quality results. This drives me to overcome any challenges that come my way, ensuring success every time.
                         </p>
-                        <p className='text-about'>I create the part of a website or web application that You as a user interact with directly. I design and build the user interface (UI), write code to implement UI designs, and create interactive features that enhance Your (aka user) experience.
-                        </p>
+                        
                     </div>
                 <div className='stagecube-container'>
                     <div className='cubespinner'>
