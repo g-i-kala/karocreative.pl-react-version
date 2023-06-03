@@ -1,10 +1,8 @@
 import { Link } from 'react-router-dom';
-import LogoHome from '../../assets/images/karolina.png'
 import './index.scss';
 import '../../omni.scss';
 import { useEffect, useState } from 'react';
 import AnimateLetters from '../AnimateLetters';
-import Logo from './Logo';
 import Loader from '../Loader'
 
 const Home = () =>  {

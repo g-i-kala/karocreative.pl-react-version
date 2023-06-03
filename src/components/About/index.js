@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCss3, faGitAlt, faHtml5, faJs, faJsSquare, faReact, faWordpress } from '@fortawesome/free-brands-svg-icons'
+import { faCss3, faGitAlt, faHtml5, faJsSquare, faReact, faWordpress } from '@fortawesome/free-brands-svg-icons'
 import Loader from '../Loader'
 
 const About = () => {

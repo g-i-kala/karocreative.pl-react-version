@@ -30,12 +30,17 @@ const MyWork = () => {
                     
                     <div className="li__work">
                         <div className='li_work_img'>
-                            <a href="https://wakethedead.eu" className="li__work__link" target="_blank">
-                                <img src={screen_wtd} className='screen_img'/>
+                            <a href="https://wakethedead.eu" className="li__work__link" 
+                            target="_blank" rel="noreferrer">
+                                <img src={screen_wtd} alt="screenshot wakethedead" className='screen_img'/>
                             </a>
                         </div>
                         <div className='li_work_text'>
-                            <a href="https://wakethedead.eu" className="li__work__link" target="_blank">wakethedead.eu</a>
+                                <a href="https://wakethedead.eu" 
+                                className="li__work__link" 
+                                target="_blank" rel="noreferrer">
+                                wakethedead.eu
+                                </a>
                             <ul className="li__work__spec">
                                 <li>graphic design & logo design</li>
                                 <li>prototype in Figma</li>
@@ -45,7 +50,10 @@ const MyWork = () => {
                                 <li>secure</li>
                             </ul>
                             <div className='backbutton__wrapper'>
-                                <a href='https://github.com/g-i-kala/wakethedead.eu' className='flat-button'>Code
+                                <a href='https://github.com/g-i-kala/wakethedead.eu' 
+                                rel="noreferrer" target='_blank'
+                                className='flat-button'>
+                                    Code
                                 </a>
                             </div>
                         </div>
@@ -54,12 +62,16 @@ const MyWork = () => {
 
                     <div className="li__work">
                         <div className='li_work_img'>
-                            <a href="https://karocreative.pl" className="li__work__link" target="_blank">    
-                                <img src={screen_caro} className='screen_img'/>
+                            <a href="https://karocreative.pl" className="li__work__link" 
+                            target="_blank" rel="noreferrer">    
+                                <img src={screen_caro} alt="screenshot karocreative" className='screen_img'/>
                             </a>    
                         </div>
                         <div className='li_work_text'> 
-                            <a href="https://karocreative.pl" className="li__work__link" target="_blank">karocreative.pl</a>
+                                <a href="https://karocreative.pl" className="li__work__link" 
+                                target="_blank" rel="noreferrer">
+                                    karocreative.pl
+                                </a>
                             <ul className="li__work__spec">
                                 <li>graphic design & logo design</li>
                                 <li>prototype in Figma</li>
@@ -68,33 +80,41 @@ const MyWork = () => {
                                 <li>secure</li>
                             </ul>
                             <div className='backbutton__wrapper'>
-                                <a href='https://github.com/g-i-kala/karocreative.pl-react-version' className='flat-button'>Code
+                                <a href='https://github.com/g-i-kala/karocreative.pl-react-version' 
+                                rel="noreferrer"
+                                target='_blank'
+                                className='flat-button'>Code
                                 </a>
                             </div>
                         </div>
                     </div>     
 
-
-
                     <div className="li__work">
                         <div className='li_work_img'>
-                            <a href="https://letgotohaveit.com" className="li__work__link" target="_blank">
-                                <img src={screen_lgth} className='screen_img'/>
+                            <a href="https://letgotohaveit.com" className="li__work__link" 
+                                target="_blank" rel="noreferrer">
+                                <img src={screen_lgth} alt="screenshot letgotohaveit" className='screen_img'/>
                             </a>
                         </div>
                         <div className='li_work_text'>
-                            <a href="https://letgotohaveit.com" className="li__work__link" target="_blank">letgotohaveit.com</a>
-                                                   <ul className="li__work__spec">
-                                <li>graphic design & logo design</li>
-                                <li>prototype in Figma</li>
-                                <li>responsive & accessible design</li>
-                                <li>implemented in Wordpress</li>
-                                <li>build in Oxygen Builder </li>
-                                <li>SEO optimised & analitccs integrated </li>
-                                <li>secure</li>
+                            <a href="https://letgotohaveit.com" className="li__work__link" target="_blank" rel="noreferrer">
+                                letgotohaveit.com
+                                </a>
+                                <ul className="li__work__spec">
+                                    <li>graphic design & logo design</li>
+                                    <li>prototype in Figma</li>
+                                    <li>responsive & accessible design</li>
+                                    <li>implemented in Wordpress</li>
+                                    <li>build in Oxygen Builder </li>
+                                    <li>SEO optimised & analitccs integrated </li>
+                                    <li>secure</li>
                             </ul>
                             {/* <div className='backbutton__wrapper'>
-                                <a href='https://github.com/g-i-kala/karocreative.pl-react-version' className='flat-button'>Code
+                                <a href='https://github.com/g-i-kala/karocreative.pl-react-version' 
+                                rel="noreferrer"
+                                target='_blank'
+                                className='flat-button'>
+                                Code
                                 </a>
                             </div> */}
                         </div>
@@ -102,12 +122,18 @@ const MyWork = () => {
 
                     <div className="li__work">
                         <div className='li_work_img'>
-                            <a href="https://kalafonia.com" className="li__work__link" target="_blank"> 
-                                <img src={screen_kalafonia} className='screen_img'/>
+                            <a href="https://kalafonia.com" className="li__work__link" 
+                                target="_blank" rel="noreferrer"> 
+                                <img src={screen_kalafonia} alt="screenshot kalafonia" className='screen_img'/>
                             </a>
                         </div>
                         <div className='li_work_text'>
-                            <a href="https://kalafonia.com" className="li__work__link" target="_blank">kalafonia.com</a>
+                            <a href="https://kalafonia.com" 
+                            className="li__work__link" 
+                            target="_blank"
+                            rel="noreferrer">
+                                kalafonia.com
+                                </a>
                             <ul className="li__work__spec">
                                 <li>graphic design & logo design</li>
                                 <li>prototype in Figma</li>
@@ -118,7 +144,11 @@ const MyWork = () => {
                                 <li>secure</li>
                             </ul>
                             {/* <div className='backbutton__wrapper'>
-                                <a href='https://github.com/g-i-kala/karocreative.pl-react-version' className='flat-button'>Code
+                                <a href='https://github.com/g-i-kala/karocreative.pl-react-version' 
+                                rel="noreferrer"
+                                target='_blank'
+                                className='flat-button'>
+                                Code
                                 </a>
                             </div> */}
                         </div>
