@@ -109,14 +109,16 @@ const MyWork = () => {
                                     <li>SEO optimised & analitccs integrated </li>
                                     <li>secure</li>
                             </ul>
-                            {/* <div className='backbutton__wrapper'>
+                            <p>react mockup</p>
+                            <div className='backbutton__wrapper'>
                                 <a href='https://github.com/g-i-kala/karocreative.pl-react-version' 
                                 rel="noreferrer"
                                 target='_blank'
                                 className='flat-button'>
                                 Code
-                                </a>
-                            </div> */}
+                                </a> 
+                                 
+                            </div>
                         </div>
                     </div>
 
