@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/karocreative.pl-react-version/static/css/main.0db183d0.css",
+    "main.js": "/karocreative.pl-react-version/static/js/main.add09f75.js",
+    "static/js/488.5981da81.chunk.js": "/karocreative.pl-react-version/static/js/488.5981da81.chunk.js",
+    "static/media/screen_kalafonia.png": "/karocreative.pl-react-version/static/media/screen_kalafonia.9c1737ed1a884c5e8952.png",
+    "static/media/screen_lgth.png": "/karocreative.pl-react-version/static/media/screen_lgth.2d95efff1238cea1f27a.png",
+    "static/media/screen_wtd.png": "/karocreative.pl-react-version/static/media/screen_wtd.31d864ef0b50e83e58c0.png",
+    "static/media/screen_rf.png": "/karocreative.pl-react-version/static/media/screen_rf.b9d70ffe99f8e5c899c1.png",
+    "static/media/screen_jxd.png": "/karocreative.pl-react-version/static/media/screen_jxd.10a0db30b7822d99eb70.png",
+    "static/media/SourceCodePro-VariableFont_wght.ttf": "/karocreative.pl-react-version/static/media/SourceCodePro-VariableFont_wght.9ef76af760ad69c7256d.ttf",
+    "static/media/screen_caro.png": "/karocreative.pl-react-version/static/media/screen_caro.adb1ba78d7e579a566c6.png",
+    "static/media/SourceCodePro-Light.ttf": "/karocreative.pl-react-version/static/media/SourceCodePro-Light.41b3040e2362ee39aad6.ttf",
+    "static/media/SourceCodePro-Black.ttf": "/karocreative.pl-react-version/static/media/SourceCodePro-Black.e1c2ed0db6bb31a9e5fd.ttf",
+    "static/media/screen_kc.png": "/karocreative.pl-react-version/static/media/screen_kc.738ac28fc813813deb72.png",
+    "index.html": "/karocreative.pl-react-version/index.html",
+    "main.0db183d0.css.map": "/karocreative.pl-react-version/static/css/main.0db183d0.css.map",
+    "main.add09f75.js.map": "/karocreative.pl-react-version/static/js/main.add09f75.js.map",
+    "488.5981da81.chunk.js.map": "/karocreative.pl-react-version/static/js/488.5981da81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0db183d0.css",
+    "static/js/main.add09f75.js"
+  ]
+}
