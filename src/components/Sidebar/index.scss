@@ -1,7 +1,7 @@
-@import "../../variables.scss";
+@use "../../variables.scss";
 
 .nav-bar {
-    background: $color_05;
+    background: variables.$color_05;
     display: flex;
     width: 100%;
     min-height: 10vh;
@@ -75,7 +75,7 @@
     }
     .active {
         svg {
-            color: $color_02;
+            color: variables.$color_02;
         }   
     }    
 

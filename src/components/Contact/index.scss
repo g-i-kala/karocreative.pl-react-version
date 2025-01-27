@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+@use "../../variables.scss";
 
 .form__wrapper {
     display: flex;
@@ -8,7 +8,7 @@
 }
 
 .text-contact {
-    color: $color_white;
+    color: variables.$color_white;
     width: 100%;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .ip-style {
-    background: $color_01;
+    background: variables.$color_01;
     height: 2em;
     border: 0;
     padding: 1em;
@@ -54,7 +54,7 @@
 }
 
 .ta-style {
-    background: $color_01;
+    background: variables.$color_01;
     min-height: 1.5em;
     border: 0;
     padding: 1em;
@@ -65,10 +65,10 @@
 .flat-button {
     text-decoration: none;
     background: 0 0;
-    color: $color_white;
+    color: variables.$color_white;
     text-align: center;
     width: 7em;
-    border: 1px solid $color_02;
+    border: 1px solid variables.$color_02;
     display: flex;
     justify-content: center;
     margin-top: 1em;
@@ -77,7 +77,7 @@
     animation: fadeIn 1s 1.8s backwards;
  
     &:hover {
-        color: $color_02;
+        color: variables.$color_02;
         opacity: 0.8;
     }
 }

@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+@use "../../variables.scss";
 
 .list__work {
     display: flex;
@@ -41,7 +41,7 @@
 
 .li__work__link {
     text-decoration: none;
-    color: $color_02;
+    color: variables.$color_02;
 }
 
 .li__work__spec {

@@ -2,7 +2,7 @@
   "name": "react-portfolio-kc",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://g-i-kala.github.io/karocreative.pl-react-version",
+  "homepage": "./",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@fortawesome/fontawesome": "^1.1.8",
@@ -26,8 +26,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -51,6 +51,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-property-in-object": "^7.25.9",
     "gh-pages": "^6.3.0",
     "tailwindcss": "^3.4.17"
   }

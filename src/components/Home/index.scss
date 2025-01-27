@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+@use "../../variables.scss";
 
 .home-page {
     
@@ -9,10 +9,10 @@
 
     .flat-button {
         text-decoration: none;
-        color: $color_white;
+        color: variables.$color_white;
         text-align: center;
         width: 7em;
-        border: 1px solid $color_02;
+        border: 1px solid variables.$color_02;
         display: flex;
         justify-content: center;
         margin-top: 5em;
@@ -21,7 +21,7 @@
         animation: fadeIn 1s 1.8s backwards;
      
         &:hover {
-            color: $color_02;
+            color: variables.$color_02;
             opacity: 0.8;
         }
     }

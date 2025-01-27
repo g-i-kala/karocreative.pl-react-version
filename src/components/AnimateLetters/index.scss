@@ -1,4 +1,5 @@
-@import "../../variables.scss";
+@use "../../variables.scss";
+@use 'sass:math';
 
 .text-animate {
     display: inline-block;
@@ -15,12 +16,14 @@
 
     &:hover {
         animation: rubberBand 1s;
-        color: $color_white
+        color: variables.$color_white
     }
 } 
 
 @for $i from 1 through 35 {
     .text-animate._#{$i}{
-        animation-delay: #{$i /10}s;
+        animation-delay: #{math.div($i, 10)}s;
     }
 }
+
+//    animation-delay: #{$i /10}s;

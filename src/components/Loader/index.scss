@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+@use "../../variables.scss";
 
 .lds-roller {
     display: inline-block;
@@ -25,7 +25,7 @@
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background: $color_01;
+    background: variables.$color_01;
     margin: -4px 0 0 -4px;
   }
   .lds-roller div:nth-child(1) {
