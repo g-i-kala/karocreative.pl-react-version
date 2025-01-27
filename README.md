@@ -1,3 +1,8 @@
+# My Aspiring Developer Portfolio
+
+This is my portfolio project, built with React. You can check it out live at [http://karocreative.pl/react-portfolio-kc/].
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
