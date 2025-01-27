@@ -1,6 +1,7 @@
 # My Aspiring Developer Portfolio
 
 This is my portfolio project, built with React. You can check it out live at [http://karocreative.pl/react-portfolio-kc/].
+It was created in March 2023, hence use of Create React App. 
 
 
 ## Getting Started with Create React App
