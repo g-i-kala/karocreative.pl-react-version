@@ -1,16 +1,16 @@
 @use "../../variables.scss";
 
-.list__work {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
 
 .li__work {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     opacity: 0.8;
+    gap: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    justify-content: center;
+    align-items: center;
     //border: 1px red solid;
     animation: pulse 1s;
 
@@ -33,10 +33,29 @@
         transition: transform 0.3s ease-in-out;
 
     &:hover {
-        transform: scale(1.2);
+        transform: scale(1.05);
         opacity: 1;
     }
         
+}
+
+.li_work_img {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+    &:hover {
+       // transform: scale(1.5);
+     }
+
+    .screen_img {
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+.li_work_text {
+    width: 100%;
 }
 
 .li__work__link {
@@ -49,13 +68,25 @@
     padding: 0em;
 }
 
+.flat-button {
+    width: 5em;
+    padding: 0.2em 0.5em;
+}
+
 @media (min-width: 623px) {
     .list__work {
-        flex-direction: row;
 
-        .li__work {
-            width: 49%;
+        .li_work_img {
+            width: 33%;
         }
+        .li__work {
+           flex-direction: row;
+        }
+
+        .li_work_text {
+            width: 67%;
+        }    
 
     }
 }
+

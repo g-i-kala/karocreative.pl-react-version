@@ -1,0 +1,8 @@
+
+index.js
+
+ <BrowserRouter basename="/react-portfolio-kc">
+
+packade.json
+
+  "homepage": "./",

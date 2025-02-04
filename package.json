@@ -2,7 +2,7 @@
   "name": "react-portfolio-kc",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@fortawesome/fontawesome": "^1.1.8",
